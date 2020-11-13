@@ -12,7 +12,7 @@ import {
   NavItem,
   NavItemBtn,
   NavLinks,
-  NavBtnLink
+  NavBtnLink,
 } from './Navbar.elements';
 
 function Navbar() {
@@ -43,7 +43,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
-              ULTRA
+              Lead-Gen
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

@@ -1,10 +1,11 @@
 import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
+import { FaCanadianMapleLeaf } from 'react-icons/fa';
+
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: red;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -33,7 +34,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(FaCanadianMapleLeaf)`
   margin-right: 0.5rem;
 `;
 

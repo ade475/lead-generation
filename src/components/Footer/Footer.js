@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
 } from 'react-icons/fa';
 import {
   FooterContainer,
@@ -25,7 +25,7 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
 } from './Footer.elements';
 
 function Footer() {
@@ -33,9 +33,10 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Exclusive membership gives benefit of receiving the latest news and
+          trends
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText> Unsubscribe at any time.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
@@ -80,9 +81,9 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            ULTRA
+            Lead-Gen
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>Lead-Gen © 2020</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
@@ -96,8 +97,7 @@ function Footer() {
               }
               rel='noopener noreferrer'
               target='_blank'
-              aria-label='Youtube'
-            >
+              aria-label='Youtube'>
               <FaYoutube />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
